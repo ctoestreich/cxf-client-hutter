@@ -35,6 +35,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link DisableRequest }
+     * 
+     */
+    public DisableRequest createDisableRequest() {
+        return new DisableRequest();
+    }
+
+    /**
      * Create an instance of {@link RecurringDetailsRequest }
      * 
      */
@@ -43,27 +51,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link DeactivateRecurringResponse }
+     * Create an instance of {@link RecurringDetail }
      * 
      */
-    public DeactivateRecurringResponse createDeactivateRecurringResponse() {
-        return new DeactivateRecurringResponse();
+    public RecurringDetail createRecurringDetail() {
+        return new RecurringDetail();
     }
 
     /**
-     * Create an instance of {@link InitialiseRecurring }
+     * Create an instance of {@link ArrayOfRecurringDetail }
      * 
      */
-    public InitialiseRecurring createInitialiseRecurring() {
-        return new InitialiseRecurring();
+    public ArrayOfRecurringDetail createArrayOfRecurringDetail() {
+        return new ArrayOfRecurringDetail();
     }
 
     /**
-     * Create an instance of {@link StoreTokenRequest }
+     * Create an instance of {@link StoreTokenResponse }
      * 
      */
-    public StoreTokenRequest createStoreTokenRequest() {
-        return new StoreTokenRequest();
+    public StoreTokenResponse createStoreTokenResponse() {
+        return new StoreTokenResponse();
+    }
+
+    /**
+     * Create an instance of {@link RecurringDetailsResult }
+     * 
+     */
+    public RecurringDetailsResult createRecurringDetailsResult() {
+        return new RecurringDetailsResult();
     }
 
     /**
@@ -83,27 +99,19 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link InitialiseRecurring }
+     * 
+     */
+    public InitialiseRecurring createInitialiseRecurring() {
+        return new InitialiseRecurring();
+    }
+
+    /**
      * Create an instance of {@link ListRecurringDetails }
      * 
      */
     public ListRecurringDetails createListRecurringDetails() {
         return new ListRecurringDetails();
-    }
-
-    /**
-     * Create an instance of {@link StoreToken }
-     * 
-     */
-    public StoreToken createStoreToken() {
-        return new StoreToken();
-    }
-
-    /**
-     * Create an instance of {@link RecurringDetail }
-     * 
-     */
-    public RecurringDetail createRecurringDetail() {
-        return new RecurringDetail();
     }
 
     /**
@@ -115,19 +123,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ArrayOfRecurringDetail }
+     * Create an instance of {@link DeactivateRecurringResponse }
      * 
      */
-    public ArrayOfRecurringDetail createArrayOfRecurringDetail() {
-        return new ArrayOfRecurringDetail();
-    }
-
-    /**
-     * Create an instance of {@link DisableResponse }
-     * 
-     */
-    public DisableResponse createDisableResponse() {
-        return new DisableResponse();
+    public DeactivateRecurringResponse createDeactivateRecurringResponse() {
+        return new DeactivateRecurringResponse();
     }
 
     /**
@@ -139,27 +139,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link RecurringRequest }
+     * Create an instance of {@link DisableResponse }
      * 
      */
-    public RecurringRequest createRecurringRequest() {
-        return new RecurringRequest();
+    public DisableResponse createDisableResponse() {
+        return new DisableResponse();
     }
 
     /**
-     * Create an instance of {@link DisableRequest }
+     * Create an instance of {@link StoreToken }
      * 
      */
-    public DisableRequest createDisableRequest() {
-        return new DisableRequest();
-    }
-
-    /**
-     * Create an instance of {@link DeactivateRecurring }
-     * 
-     */
-    public DeactivateRecurring createDeactivateRecurring() {
-        return new DeactivateRecurring();
+    public StoreToken createStoreToken() {
+        return new StoreToken();
     }
 
     /**
@@ -179,14 +171,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link StoreTokenResponse }
-     * 
-     */
-    public StoreTokenResponse createStoreTokenResponse() {
-        return new StoreTokenResponse();
-    }
-
-    /**
      * Create an instance of {@link DisableResult }
      * 
      */
@@ -195,19 +179,35 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link StoreTokenRequest }
+     * 
+     */
+    public StoreTokenRequest createStoreTokenRequest() {
+        return new StoreTokenRequest();
+    }
+
+    /**
+     * Create an instance of {@link DeactivateRecurring }
+     * 
+     */
+    public DeactivateRecurring createDeactivateRecurring() {
+        return new DeactivateRecurring();
+    }
+
+    /**
+     * Create an instance of {@link RecurringRequest }
+     * 
+     */
+    public RecurringRequest createRecurringRequest() {
+        return new RecurringRequest();
+    }
+
+    /**
      * Create an instance of {@link StoreTokenResult }
      * 
      */
     public StoreTokenResult createStoreTokenResult() {
         return new StoreTokenResult();
-    }
-
-    /**
-     * Create an instance of {@link RecurringDetailsResult }
-     * 
-     */
-    public RecurringDetailsResult createRecurringDetailsResult() {
-        return new RecurringDetailsResult();
     }
 
     /**

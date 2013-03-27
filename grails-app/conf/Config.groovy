@@ -98,8 +98,19 @@ cxf {
             requestContext = [
                     (javax.xml.ws.BindingProvider.USERNAME_PROPERTY): "ws@blah",
                     (javax.xml.ws.BindingProvider.PASSWORD_PROPERTY): "thepassword"]
-            clientInterface = com.adyen.services.recurring.RecurringPortType
+            clientInterface = 'com.adyen.services.recurring.RecurringPortType'
             serviceEndpointAddress = "https://pal-test.adyen.com/pal/servlet/soap/Recurring"
+        }
+
+        paymentClient {
+            wsdl = "https://pal-test.adyen.com/pal/Payment.wsdl"
+            bindingFile = "src/wsdl/recurringBindings.xml"
+            requestContext = [
+                    (javax.xml.ws.BindingProvider.USERNAME_PROPERTY): "ws@Company.Name",
+                    (javax.xml.ws.BindingProvider.PASSWORD_PROPERTY): "password"]
+            clientInterface = 'com.adyen.services.payment.PaymentPortType'
+            serviceEndpointAddress = "https://pal-test.adyen.com/pal/servlet/soap/Payment"
+            wsdlArgs = ['-autoNameResolution']
         }
     }
 }

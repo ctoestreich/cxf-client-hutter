@@ -2,10 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49d8b1a7-99ec-461a-8053-b17aab1ac35b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/common/BrowserInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/AnyType2AnyTypeMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ArrayOfFraudCheckResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Authorise.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Authorise3D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Authorise3DResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/AuthoriseReferral.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/AuthoriseReferralResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/AuthoriseResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/BalanceCheck.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/BalanceCheckRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/BalanceCheckResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/BalanceCheckResponseCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/BalanceCheckResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Cancel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/CancelOrRefund.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/CancelOrRefundResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/CancelResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Capture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/CaptureResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/CheckFraud.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/CheckFraudResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/DirectDebitRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/DirectDebitResponse2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Directdebit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/DirectdebitResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ForexQuote.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/FraudCheckResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/FraudResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/FundTransfer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/FundTransferRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/FundTransferResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/FundTransferResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ModificationRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ModificationResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Payment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentPortType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentRequest3D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/Refund.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/RefundResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/RefundWithData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/RefundWithDataResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ServiceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ThreeDSecureData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/integration/org/grails/cxf/client/test/PaymentClientSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cxf-client-hutter-grailsPlugins.iml" afterPath="$PROJECT_DIR$/cxf-client-hutter-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cxf-client-hutter.iml" afterPath="$PROJECT_DIR$/cxf-client-hutter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/adyen/services/common/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/common/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/payment/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/Recurring.java" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/Recurring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringPortType.java" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringPortType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/ServiceException.java" afterPath="$PROJECT_DIR$/src/java/com/adyen/services/recurring/ServiceException.java" />
     </list>
     <ignored path="cxf-client-hutter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,16 +161,34 @@
       <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="89" selection-start="4328" selection-end="4328" vertical-scroll-proportion="0.47058824">
+            <state line="112" column="46" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.71929824">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebServiceClientFactory.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/src/groovy/com/grails/cxf/client/WebServiceClientFactory.groovy">
+      <file leaf-file-name="DirectDebitResponse2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/DirectDebitResponse2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+            <state line="43" column="48" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentPortType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentPortType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="17" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectdebitResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/DirectdebitResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="13" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,9 +198,25 @@
         <entry file="file://$PROJECT_DIR$/test/integration/org/grails/cxf/client/test/RecurringPaymentClientSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="101" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#36#75#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentClientSpec.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/integration/org/grails/cxf/client/test/PaymentClientSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="40" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="13" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,26 +225,6 @@
         <entry file="file://$PROJECT_DIR$/src/wsdl/recurringBindings.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="16" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CxfClientGrailsPlugin.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/CxfClientGrailsPlugin.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="0" selection-start="5573" selection-end="5573" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServiceClientFactoryImpl.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/src/groovy/com/grails/cxf/client/WebServiceClientFactoryImpl.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="115" selection-start="3065" selection-end="3065" vertical-scroll-proportion="-9.12">
               <folding />
             </state>
           </provider>
@@ -208,28 +275,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTTPClientPolicy.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-transports-http/jars/cxf-rt-transports-http-2.6.2.jar!/org/apache/cxf/transports/http/configuration/HTTPClientPolicy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="-0.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionType.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-transports-http/jars/cxf-rt-transports-http-2.6.2.jar!/org/apache/cxf/transports/http/configuration/ConnectionType.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="-4.08">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JaxWsProxyFactoryBean.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-frontend-jaxws/jars/cxf-rt-frontend-jaxws-2.6.2.jar!/org/apache/cxf/jaxws/JaxWsProxyFactoryBean.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="41" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-7.92">
+            <state line="28" column="41" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -239,9 +288,7 @@
         <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/common/Amount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="83" column="16" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#setValue#0;class#Amount#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -250,15 +297,7 @@
         <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="45" column="13" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#setAmount#0;class#RecurringRequest#0" expanded="true" />
-                <element signature="method#setMerchantAccount#0;class#RecurringRequest#0" expanded="true" />
-                <element signature="method#setOriginalReference#0;class#RecurringRequest#0" expanded="true" />
-                <element signature="method#setRecurringReference#0;class#RecurringRequest#0" expanded="true" />
-                <element signature="method#setReference#0;class#RecurringRequest#0" expanded="true" />
-                <element signature="method#setShopperEmail#0;class#RecurringRequest#0" expanded="true" />
-                <element signature="method#setShopperReference#0;class#RecurringRequest#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -294,12 +333,7 @@
         <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringDetailsRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="39" column="13" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#setCustomReference#0;class#RecurringDetailsRequest#0" expanded="true" />
-                <element signature="method#setMerchantAccount#0;class#RecurringDetailsRequest#0" expanded="true" />
-                <element signature="method#setRecurring#0;class#RecurringDetailsRequest#0" expanded="true" />
-                <element signature="method#setShopperReference#0;class#RecurringDetailsRequest#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -324,6 +358,7 @@
         <option value="$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringRequest.java" />
         <option value="$PROJECT_DIR$/test/integration/org/grails/cxf/client/test/RecurringPaymentClientSpec.groovy" />
         <option value="$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/src/groovy/com/grails/cxf/client/WebServiceClientFactoryImpl.groovy" />
+        <option value="$PROJECT_DIR$/test/integration/org/grails/cxf/client/test/PaymentClientSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       </list>
     </option>
@@ -332,8 +367,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -363,25 +398,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cxf-client-hutter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cxf-client-hutter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -414,8 +430,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsdl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cxf-client-hutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,9 +575,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -455,22 +598,21 @@
       </server>
     </servers>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.grails.cxf.client.test" />
+    </key>
+  </component>
   <component name="RunManager" selected="Grails.test the secured invocation of the service()">
     <configuration default="false" name="test the secured invocation of the service()" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
       <module name="cxf-client-hutter" />
       <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="test-app integration: org.grails.cxf.client.test.RecurringPaymentClientSpec.test the secured invocation of the service -echoOut --stacktrace --verbose" />
+      <setting name="cmdLine" value="test-app integration: org.grails.cxf.client.test.PaymentClientSpec.test the secured invocation of the service -echoOut" />
       <setting name="depsClasspath" value="true" />
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method>
         <option name="Make" enabled="false" />
@@ -625,6 +767,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="49d8b1a7-99ec-461a-8053-b17aab1ac35b" name="Default" comment="" />
       <created>1363201551079</created>
       <updated>1363201551079</updated>
     </task>
@@ -640,42 +783,46 @@
       <created>1363206712697</created>
       <updated>1363206712697</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding project files">
+      <created>1363207777105</created>
+      <updated>1363207777105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50133336" sideWeight="0.4980695" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50133336" sideWeight="0.27413127" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.49866667" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50133336" sideWeight="0.497426" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24893162" sideWeight="0.49892473" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50107527" sideWeight="0.7213642" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -715,7 +862,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding project" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding project files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -729,6 +876,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="adding project" />
+    <MESSAGE value="adding project files" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -774,189 +922,143 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/apps/Java/64bit/jdk1.7.0_10/src.zip!/javax/xml/bind/JAXBElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="13" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#setValue#0;class#JAXBElement#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/scripts/Wsdl2java.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringDetailsRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#setCustomReference#0;class#RecurringDetailsRequest#0" expanded="true" />
-            <element signature="method#setMerchantAccount#0;class#RecurringDetailsRequest#0" expanded="true" />
-            <element signature="method#setRecurring#0;class#RecurringDetailsRequest#0" expanded="true" />
-            <element signature="method#setShopperReference#0;class#RecurringDetailsRequest#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringPortType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wsdl/recurringBindings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/common/Amount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="16" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#setValue#0;class#Amount#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="63" column="13" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-core/jars/spock-core-0.7-groovy-2.0.jar!/org/spockframework/util/ReflectionUtil.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="93" selection-start="1485" selection-end="1485" vertical-scroll-proportion="-5.48">
-          <folding />
-        </state>
+        <state line="25" column="93" selection-start="1485" selection-end="1485" vertical-scroll-proportion="-5.48" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/CxfClientGrailsPlugin.groovy">
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/Recurring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="5573" selection-end="5573" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="19" column="13" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-frontend-jaxws/jars/cxf-rt-frontend-jaxws-2.6.2.jar!/org/apache/cxf/jaxws/JaxWsProxyFactoryBean.class">
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-7.92">
+        <state line="49" column="13" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/StoreToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/StoreTokenRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="13" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/SubmitRecurring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-transports-http/jars/cxf-rt-transports-http-2.6.2.jar!/org/apache/cxf/transports/http/configuration/HTTPClientPolicy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-transports-http/jars/cxf-rt-transports-http-2.6.2.jar!/org/apache/cxf/transports/http/configuration/ConnectionType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="-4.08">
+        <state line="7" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-transports-http/jars/cxf-rt-transports-http-2.6.2.jar!/org/apache/cxf/transports/http/configuration/HTTPClientPolicy.class">
+    <entry file="jar://$USER_HOME$/.grails/ivy-cache/org.apache.cxf/cxf-rt-frontend-jaxws/jars/cxf-rt-frontend-jaxws-2.6.2.jar!/org/apache/cxf/jaxws/JaxWsProxyFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="-0.68">
+        <state line="28" column="41" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/Recurring.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/common/Amount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="13" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/StoreToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/StoreTokenRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/SubmitRecurring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="83" column="16" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#setAmount#0;class#RecurringRequest#0" expanded="true" />
-            <element signature="method#setMerchantAccount#0;class#RecurringRequest#0" expanded="true" />
-            <element signature="method#setOriginalReference#0;class#RecurringRequest#0" expanded="true" />
-            <element signature="method#setRecurringReference#0;class#RecurringRequest#0" expanded="true" />
-            <element signature="method#setReference#0;class#RecurringRequest#0" expanded="true" />
-            <element signature="method#setShopperEmail#0;class#RecurringRequest#0" expanded="true" />
-            <element signature="method#setShopperReference#0;class#RecurringRequest#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="45" column="13" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/Recurring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="13" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringPortType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="50" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/recurring/RecurringDetailsRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="13" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wsdl/recurringBindings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/org/grails/cxf/client/test/RecurringPaymentClientSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="101" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#36#75#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="22" column="101" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/src/groovy/com/grails/cxf/client/WebServiceClientFactoryImpl.groovy">
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="115" selection-start="3065" selection-end="3065" vertical-scroll-proportion="-9.12">
+        <state line="79" column="13" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.grails/2.2.1/projects/cxf-client-hutter/plugins/cxf-client-1.5.1/src/groovy/com/grails/cxf/client/WebServiceClientFactory.groovy">
+    <entry file="file://$PROJECT_DIR$/test/integration/org/grails/cxf/client/test/PaymentClientSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+        <state line="19" column="40" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/DirectdebitResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/DirectDebitResponse2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="48" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/adyen/services/payment/PaymentPortType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="89" selection-start="4328" selection-end="4328" vertical-scroll-proportion="0.47058824">
+        <state line="112" column="46" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.71929824">
           <folding />
         </state>
       </provider>
