@@ -100,7 +100,7 @@ cxf {
                     (javax.xml.ws.BindingProvider.PASSWORD_PROPERTY): "thepassword"]
             clientInterface = 'com.adyen.services.recurring.RecurringPortType'
             serviceEndpointAddress = "https://pal-test.adyen.com/pal/servlet/soap/Recurring"
-            wsdlArgs = ['-autoNameResolution','-frontend jaxws21']
+            wsdlArgs = ['-autoNameResolution','-frontend','jaxws21']
         }
 
         paymentClient {
@@ -111,7 +111,7 @@ cxf {
                     (javax.xml.ws.BindingProvider.PASSWORD_PROPERTY): "password"]
             clientInterface = 'com.adyen.services.payment.PaymentPortType'
             serviceEndpointAddress = "https://pal-test.adyen.com/pal/servlet/soap/Payment"
-            wsdlArgs = ['-autoNameResolution','-frontend jaxws21']
+            wsdlArgs = ['-autoNameResolution','-frontend','jaxws21']
         }
     }
 }
